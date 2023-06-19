@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Formulário de dúvidas</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <section class="text">
+                <h1 class="title">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+                <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.</p>
+            </section>
+            <form id="form" class="form">
+                <div id="camp" class="camp margin">
+                    <input type="text" class="input" name="nome-completo" id="name" placeholder="Nome completo *">
+                    <small class="required">Campo obrigatório</small>
+                </div>
+                <div id="camp" class="camp margin">
+                    <input type="email" class="input" name="email" id="email" placeholder="Email *">
+                    <small class="required">Campo obrigatório</small>
+                </div>
+                <div id="camp" class="camp margin">
+                    <input type="tel" class="input" name="phone" id="phone" placeholder="Telefone *">
+                    <small class="required">Campo obrigatório</small>
+                </div>
+                <div id="camp" class="camp margin">
+                    <textarea class="textarea input" name="textarea" id="message" cols="30" rows="10"
+                        placeholder="Mensagem *"></textarea>
+                    <small class="required">Campo obrigatório</small>
+                </div>
+                <p class="info-campo">*campos obrigatórios</p>
+
+                <button type="submit" class="btn-send" id="button">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
