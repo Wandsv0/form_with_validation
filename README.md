@@ -12,7 +12,7 @@ Screenshot
 the project is a simple contact submission form. 
 
 Links
-Solution URL: [Contact submission form](p)
+Solution URL: [Contact submission form]([p](https://wandsv0.github.io/form_with_validation/))
 
 My process
 Built with
